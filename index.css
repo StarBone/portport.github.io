@@ -91,7 +91,7 @@ table {
 .hero {
   height: 280px;
   width: 800px;
-  background-image: url(hero1.gif);
+  background-image: url(hero.gif);
   border-top: 5px solid lightskyblue;
   border-bottom: 5px solid salmon;
 }
