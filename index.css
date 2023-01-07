@@ -59,6 +59,9 @@ body {
 .container {
   width: 800px;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
   /* buat titik dibelakang warna untuk opacity/transparant */
   background: rgb(255,255,255,0.1);
   backdrop-filter: blur(10px);
@@ -126,6 +129,7 @@ body {
 .copyright {
   background-color: gray;
   padding: 20px 20px 20px 20px;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .copyright .poter {
