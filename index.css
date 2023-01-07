@@ -50,9 +50,8 @@ table {
 /* Style */
 
 body {
-  width: 100px;
-  height: 100px;
-  background-image: url(/bg.png);
+  background: url(hero.jpg) no-repeat center fixed;
+  background-size: cover;
   /* background-color: hwb(313 62% 0%); */
 }
 
