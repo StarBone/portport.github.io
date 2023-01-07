@@ -52,6 +52,7 @@ table {
 body {
   background: url(hero.jpg) no-repeat center fixed;
   background-size: cover;
+  display: flex;
   /* background-color: hwb(313 62% 0%); */
 }
 
@@ -59,7 +60,8 @@ body {
   width: 800px;
   margin: auto;
   /* buat titik dibelakang warna untuk opacity/transparant */
-  background-color: rgb(255,255,255,.6);
+  background: rgb(255,255,255,.3);
+  backdrop-filter: blur(10px);
 }
 
 .header {
